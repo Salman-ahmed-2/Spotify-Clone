@@ -167,15 +167,11 @@ header{
 
 header .h1{
     width: 50%;
+    filter: invert(1);
+    align-content: center;
    
 }
-header .h1 i{
-    
-margin-right: 1vw;
-margin-top: 1vh;
 
-    
-}
 header .h2{
     width: 50%;
     
