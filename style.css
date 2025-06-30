@@ -169,6 +169,8 @@ header .h1{
     width: 50%;
     filter: invert(1);
     align-content: center;
+    justify-content: left;
+    display: flex;
    
 }
 
@@ -438,7 +440,13 @@ play .bar{
     font-size: 6vw;
     padding: 1vh 1vw;
   }
-
+  .right{
+    width: 100vw;
+  }
+.left .up{
+        display: none;
+    transition: max-height 0.3s ease-in-out;
+}
   .left .down {
     display: none;
     transition: max-height 0.3s ease-in-out;
@@ -448,3 +456,6 @@ play .bar{
     display: block;
   }
 }
+
+
+
