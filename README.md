@@ -42,7 +42,8 @@
 ```bash
 git clone https://github.com/salman-ahmed-2/spotify-clone.git
 cd spotify-clone
-Open index.html in your preferred browser.
+```
+2. Open index.html in your preferred browser.
 
 ✅ No dependencies required — Pure HTML, CSS & JS!
 
