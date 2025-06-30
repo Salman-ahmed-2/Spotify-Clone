@@ -50,10 +50,21 @@ cd spotify-clone
 📸 Screenshots
 Experience the clean and modern interface:
 
-<p align="center"> <img src="spotifymain.png" width="600" alt="Home View"/> <br><br> ![Preview](spotiftvid.gif) </p>
+<p align="center"> <img src="spotifymain.png" width="600" alt="Home View"/> <br><br> ![Preview](spotifyvid.gif) </p>
 🧰 Technologies Used
 
 
+##  Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=salman-ahmed-2&theme=dark&hide_border=true" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api?username=salman-ahmed-2&show_icons=true&theme=dark&hide_border=true" />
+  <br><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salman-ahmed-2&layout=compact&theme=dark&hide_border=true" />
+</p>
+
+---
 
 
 
