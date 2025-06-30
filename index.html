@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="overall">
+      <div class="left">
+        
+        <div class="up">
+        
+
+          <div class="u"><img id="img1" src="img/logo.svg" /></div>
+          <div class="u"><img src="img/home.svg" /> home</div>
+          <div class="u"><img src="img/search.svg" /> Search</div>
+        </div>
+        <div class="down">
+          <div class="d">
+            <div class="d1"><img class="u" src="img/playlist.svg" /></div>
+            <div id="text">Your Library</div>
+            <div class="d2">+</div>
+          </div>
+          <div class="list">
+            <div class="l1 x1" onclick="playFromDeezer(this,'Payitaht')">
+              <img src="img/music.svg" />
+              <div>Payitaht</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'Dammi Falastini')">
+              <img src="img/music.svg" />
+              <div>Dammi Falastini</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'Qasida Burda Sharif')">
+              <img src="img/music.svg" />
+              <div>Qasida Burda Sharif</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div
+              class="l1 x1"
+              onclick="playFromDeezer(this,'Aao bacho sair karain tum ko Pakistan ki')"
+            >
+              <img src="img/music.svg" />
+              <div>Aao bacho</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'Kun Anta')">
+              <img src="img/music.svg" />
+              <div>Kun Anta</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'Barbie Girl')">
+              <img src="img/music.svg" />
+               <div class="title">Barbie Girl</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'waka waka')">
+              <img src="img/music.svg" />
+              <div>Waka Waka</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'I\'am Osama')">
+              <img src="img/music.svg" />
+              <div>I'am Osama</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'My Heart Will Go On')">
+              <img src="img/music.svg" />
+              <div>My Heart Will Go</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="l1 x1" onclick="playFromDeezer(this,'Runaway')">
+              <img src="img/music.svg" />
+              <div>Runaway</div>
+              <div class="now">Play Now</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+          </div>
+          <div class="d"></div>
+        </div>
+      </div>
+      <div class="right">
+        <header>
+            <div class="hamburger" onclick="toggleSidebar()">
+  <img src="img/hamburger.svg" alt="menu" />
+</div>
+
+          <div class="h1">
+            <i class="fa-solid fa-less-than u"></i>
+            <i class="fa-solid fa-greater-than u"></i>
+          </div>
+          <div class="h2">
+            <button class="h21"><a href="">Sign Up</a></button>
+            <button class="h22"><a href="">Log In</a></button>
+          </div>
+        </header>
+
+        <header3>
+          <div class="h31">Spotify Playlist</div>
+          <div class="h32">Show more</div>
+        </header3>
+        <main>
+          <div class="grid">
+            <div
+              class="g1 x1 x2"
+              onclick="playFromDeezer(this,'Payitaht')"
+            >
+              <div><img src="songs/Payitaht Abdülhamid.jpg" /></div>
+              <div>Payitaht</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="g1 x1 x2" onclick="playFromDeezer(this,'Dammi Falastini')">
+              <div><img src="songs/Dammi Falastini.jpeg" /></div>
+              <div>Dammi Falastini</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div
+              class="g1 x1 x2"
+              onclick="playFromDeezer(this,'Qasida Burda Sharif')"
+            >
+              <div><img src="songs/Qasida Burda Sharif.jpg" /></div>
+              <div>Qasida Burda Sharif</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div
+              class="g1 x1 x2"
+              onclick="playFromDeezer(this,'Aao bacho sair karain tum ko Pakistan ki')"
+            >
+              <div>
+                <img src="songs/Aao bacho sair karain tum ko Pakistan ki.jpg" />
+              </div>
+              <div>Aao bacho</div>
+              <div>Aao bacho sair karain tum ko Pakistan ki</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="g1 x1 x2" onclick="playFromDeezer(this,'Kun Anta')">
+              <div><img src="songs/Kun Anta.jpg" /></div>
+              <div>Kun Anta</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="g1 x1 x2" onclick="playFromDeezer(this,'Barbie Girl')">
+              <div><img src="songs/Barbie Girl.jpg" /></div>
+              <div>Barbie Girl</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="g1 x1 x2" onclick="playFromDeezer(this,'waka waka')">
+              <div><img src="songs/waka waka.jpeg" /></div>
+              <div>Waka Waka</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="g1 x1 x2" onclick="playFromDeezer(this,'I\'am Osama')">
+              <div><img src="songs/osama.jpeg" /></div>
+              <div>I'am Osama</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div
+              class="g1 x1 x2"
+              onclick="playFromDeezer(this,'My Heart Will Go On')"
+            >
+              <div><img src="songs/My Heart Will Go On.jpeg" /></div>
+              <div>My Heart Will Go</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+            <div class="g1 x1 x2" onclick="playFromDeezer(this,'Runaway')">
+              <div><img src="songs/Runaway.jpg" /></div>
+              <div>Run Away</div>
+              <div>Hits to boost your mood and fill you with happiness</div>
+              <div class="a1"><img src="img/play.svg" /></div>
+            </div>
+          </div>
+        </main>
+
+        <play>
+          
+         
+<div class="sinfo"></div>
+
+<div class="vol">
+  <label for="volumeControl">
+    <img src="img/volume.svg" alt="Volume">
+  </label>
+  <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+</div>
+
+<div class="sbtn">
+  <img id="previous" src="img/prevsong.svg" alt="Previous" />
+  <img id="play" src="img/play.svg" alt="Play" />
+  <img id="next" src="img/nextsong.svg" alt="Next" />
+</div>
+
+<div class="stime">
+  <p><span id="currentTime">0:00</span> / <span id="duration">0:00</span></p>
+</div>
+
+<div class="bar">
+  <input type="range" id="seekBar" value="0" min="0" step="0.01">
+</div>
+
+<audio id="tracks" src="song.mp3"></audio>
+
+        </play>
+      </div>
+
+    </div>
+
+    <script src="java.js"></script>
+
+  </body>
+</html>

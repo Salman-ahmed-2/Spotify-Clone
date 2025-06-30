@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+   
+    
+}
+
+.overall {
+    margin: 1vh ;
+    display: flex;
+    gap: 1vh;
+}
+.left{
+    width: 25vw;
+    height: 100vh;
+    gap: 1vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left .up{
+            
+height: 20vh;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+padding: 1vh 1vw;
+background-color: rgb(29, 26, 26);
+
+
+
+}
+.left .up div{
+    display: flex;
+    align-items: center;
+   font-size: 0.8vw;
+}
+
+.left .up .u img{
+      height: auto;
+       width: 1.3vw;
+       margin-right: 1.3vw;
+     
+}
+.u{
+    filter: invert(1);
+}
+#img1 {
+     height: auto;
+       width: 4.9vw;
+}
+
+.left .down{
+    height: 85vh;
+    background-color: rgb(29, 26, 26);
+     color: white;
+}
+
+.down .d{
+    display: grid;
+     padding: 1vh 1vw;
+     grid-template-columns: 0.4fr 2fr 1fr;
+     
+
+}
+
+
+#text{
+
+font-size: 0.8vw;
+
+align-content: center;
+}
+
+.down .d img{
+    height: auto;
+    width: 1.3vw;
+   
+    
+}
+
+.down .d .d2{
+       position: relative;
+    text-align: end;
+    align-items: end;
+}
+
+
+.list {
+    display: grid;
+    margin: 1vh 1vw;
+    gap: 2vh;
+    filter: invert(1);
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.list .l1{
+    display: flex;
+    position: relative;
+    margin-right: 0.5vw;
+    color: #000000;
+    border: 2px solid rgb(3, 1, 1);
+    border-radius: 10px;
+    font-size: 1vw;
+    
+    width: auto;
+    justify-content: space-between;
+    padding: 1vh 1vw;
+}
+
+.list .l1 div{
+margin-left: 1vw;
+margin-right: 0vw;
+display: flex;
+align-items: center;
+
+}
+.list .l1 .now{
+    margin-right: 0vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    justify-items: end;
+    
+  
+}
+
+
+
+.list::-webkit-scrollbar{
+    width: 0.7vw;
+}
+
+.list::-webkit-scrollbar-thumb{
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+}
+.list::-webkit-scrollbar-track{
+    background-color:  white;;
+     border-radius: 10px;
+}
+
+
+
+
+
+
+.right{
+    width: 75vw;
+    height: auto;
+    background-color: rgb(29, 26, 26);
+   
+}
+header{
+    display: flex;
+    height: 5vh;
+    background-color: rgb(40, 38, 37);
+     padding: 1vh 1.3vw 1vh 2vw;
+}
+
+header .h1{
+    width: 50%;
+   
+}
+header .h1 i{
+    
+margin-right: 1vw;
+margin-top: 1vh;
+
+    
+}
+header .h2{
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+header .h2 button{
+height: 100%;
+border-radius: 10px;
+margin-left: 1vw;
+}
+
+header .h2 button a{
+    padding: 1vh 1vw;
+    text-decoration: none;
+
+
+}
+header .h2 .h21 {
+    background-color: rgb(40, 38, 37);
+    border-style: none;
+    
+}
+header .h2 .h21:hover{
+    background-color: #030303;
+}
+header .h2 .h21 a{
+color: aliceblue;
+font-size: 1vw;
+}
+
+header .h2 .h22 {
+    background-color: rgba(255, 255, 255, 0.756);
+    border-style: none;
+    color: black;
+    
+}
+header .h2 .h22 a:hover{
+   
+    color: gray;
+    
+}
+header .h2 .h22:hover{
+transform: scale(1.06);
+} 
+
+header .h2 .h22 a{
+color: rgb(0, 0, 0);
+font-size: 1vw;
+}
+
+header3{
+    display: flex;
+    height: 5vh;
+    color: white;
+     padding: 1vh 1vw;
+}
+
+header3 .h31{
+    width: 50%;
+    font-size: 1.5vw;
+     display: flex;
+    align-items: center;
+}
+
+header3 .h32{
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#tracks{
+    position: absolute;
+    z-index: -2;
+
+}
+main .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    color: #fffdfd;
+    gap: 0.7vh 0.5vw;
+    overflow-y: scroll;
+    height: 65vh;
+    
+    
+   
+    margin: 4vh;
+   padding-right: 5vw;
+    background-color: rgb(29, 26, 26);
+}
+main .grid .g1 {
+    width:100%;
+    
+    background-color: rgb(40, 38, 37);
+    margin-right: 1vw;
+    border-radius: 10px;
+    
+}
+
+main .grid .g1 img{
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  height: 36vh;
+  
+}
+main .grid .g1 div{
+    
+    display: flex;
+    margin: 1vw;
+    
+   
+}
+main .grid .g1 div:nth-child(2){
+    font-size: 4vh;
+    justify-content: center;
+   
+}
+main .grid .g1 div:nth-child(3){
+    font-size: 3vh;
+     justify-content: end;
+      
+   
+}
+main .g1 .a1 img{
+  position: relative;
+  height: 4vh;
+  width: auto;
+  background-color: rgb(14, 255, 14);
+  border-radius: 50%;
+  padding: 1.2vh;
+  bottom: 19vh;
+  left: 77%;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  z-index: 1;
+  fill: #252121;
+ 
+    
+}
+
+main .g1:hover .a1 img{
+  transform: translateY(-8vh);
+  
+  opacity: 1;
+  
+  
+}
+
+
+
+.grid::-webkit-scrollbar{
+    width: 0.7vw;
+}
+
+.grid::-webkit-scrollbar-thumb{
+    background-color: rgb(44, 38, 38);
+    border-radius: 6px;
+}
+.grid::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+
+
+
+play {
+background-color: #000000;
+    
+    position: relative;
+    
+    z-index: 6;
+    width: 94%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 1vh 2vw 0vh 1vw;
+    padding: 1vh 1vw;
+   bottom: 0;
+   
+    border-radius: 25px;
+
+   
+}
+play .sinfo{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    color: #fffdfd;
+}
+play .vol{
+grid-row: 1/2;
+grid-column:4/5;
+   filter: invert(1);
+    
+ display: flex;
+ position: relative;
+  
+    accent-color: #000000;
+   align-items: center;
+   justify-content: end;
+}
+
+play .sbtn{
+
+   grid-row: 1/2;
+grid-column: 2/3;
+     display: flex;
+  
+
+align-items: center;
+justify-content: end;
+
+ filter: invert(1);
+
+
+     
+}
+
+play .sbtn img{
+   
+ margin-left: 1vw;
+}
+
+
+play .stime{
+    color: #fffdfd;
+    display: flex;
+    justify-content: end;
+    font-size: 1.4vw;
+}
+
+
+play .bar{
+   max-width:400px;
+    margin-top: 10px;
+   grid-row: 2/3;
+   grid-column: 1/5;
+   width: 700px;
+}
+
+
+    .bar input[type="range"] {
+      width: 69vw;
+       accent-color: #4a4242;
+    }
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 6vw;
+    padding: 1vh 1vw;
+  }
+
+  .left .down {
+    display: none;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .left .down.active {
+    display: block;
+  }
+}
