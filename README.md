@@ -3,7 +3,7 @@
   <br>
   <b>🎵 Spotify Clone 🎧</b>
   <br>
-  <i>Web Development Project | FAST NUCES</i>
+  
 </h1>
 
 <p align="center">
@@ -50,7 +50,7 @@ cd spotify-clone
 📸 Screenshots
 Experience the clean and modern interface:
 
-<p align="center"> <img src="screenshot1.png" width="600" alt="Home View"/> <br><br> <img src="screenshot2.png" width="600" alt="Now Playing View"/> </p>
+<p align="center"> <img src="spotifymain.jpeg" width="600" alt="Home View"/> <br><br> <img src="spotifyvid.gif" width="600" alt="Now Playing View"/> </p>
 🧰 Technologies Used
 
 
