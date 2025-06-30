@@ -50,7 +50,7 @@ cd spotify-clone
 📸 Screenshots
 Experience the clean and modern interface:
 
-<p align="center"> <img src="spotifymain.jpeg" width="600" alt="Home View"/> <br><br> <img src="spotifyvid.gif" width="600" alt="Now Playing View"/> </p>
+<p align="center"> <img src="spotifymain.png" width="600" alt="Home View"/> <br><br> ![Preview](spotiftvid.gif) </p>
 🧰 Technologies Used
 
 
